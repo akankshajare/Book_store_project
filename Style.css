@@ -1,0 +1,415 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    /* background-color: #b3b3b3; */
+    height: 70px;
+    position: fixed; /* Fix navbar at the top */
+    top: 0; /* Stick it to the top */
+    left: 0;
+    width: 100%; /* Make it full width */
+    background-color: white; /* Change as needed */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow */
+    z-index: 1000; /* Keeps it above other elements */
+}
+
+.logo img {
+    height: 50px;
+    width: 100px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    /* object-fit:contain; */
+}
+
+.nav ul {
+    width: 850px;
+    /* background-color: red; */
+    list-style: none;
+    margin: auto;
+
+}
+
+.nav a{
+    padding: 0px 33px;
+    /* background-color: greenyellow; */
+    float: left;
+    line-height: 70px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #e67300;
+    text-decoration: none;
+
+}
+
+.nav a:hover {
+    color: whitesmoke;
+    background-color: #cc6600;
+    border-radius: 20px;
+}
+
+.icon1 {
+    margin-right: 50px;
+    background-color: red;
+   
+}
+
+.icon1 img {
+   
+    height: 35px;
+    width: 35px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 18px;
+
+}
+
+.back {
+    height: 750px;
+    position: relative;
+    z-index: 0;
+}
+
+.back img {
+    height: 750px;
+    width: 1903px;
+    position: absolute;
+    z-index: 0;
+}
+
+.back2 {
+    height: 750px;
+    width: 1903px;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.back3 {
+    height: 750px;
+    width: 1900px;
+    position: absolute;
+    z-index: 2;
+    color: white;
+
+}
+
+.back3 h1:hover {
+    color: #cc6600;
+}
+
+.back3 h1 {
+    margin-top: 280px;
+    text-align: center;
+    font-size: 120px;
+
+}
+
+.back3 p {
+    text-align: center;
+    font-size: 55px;
+    letter-spacing: 15px;
+}
+
+.para1 {
+    /* background-color: yellow; */
+}
+
+.heading {
+    /* background-color: greenyellow; */
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.book {
+    height: 450px;
+    width: 1700px;
+    /* background-color: red; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.book img {
+    height: 270px;
+    width: 220px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px lightgray;
+}
+
+.bn {
+    margin-top: 20px;
+    font-size: 27px;
+    color: #595959;
+}
+
+.bp {
+    margin-top: 7px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.back4 {
+    height: 450px;
+    width: 100%;
+    position: relative;
+    z-index: 4;
+    /* background-color: red; */
+
+}
+
+.info2 {
+    position: absolute;
+    z-index: 5;
+    color: #f2f2f2;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+/* .info2 p:hover{
+    transform: 70px linear 2s;
+} */
+.info2 p {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.back4 img {
+    position: absolute;
+    height: 450px;
+    width: 1903px;
+    
+
+}
+.bn1 {
+    margin-top: 20px;
+    font-size: 27px;
+    color: #595959;
+    text-align: center;
+}
+.btn {
+    background-color: #cc6600;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.btn:hover {
+    background-color: white;
+    border: 2px solid #cc6600;
+    color: #cc6600;
+}
+.about{
+    padding-top: 50px;
+    height: 400px;
+    width:1550px;
+    margin: auto;
+    /* background-color: gainsboro; */
+}
+.leftabout{
+    height: 400px;
+    width:850px;
+    /* background-color: red; */
+    float: left;
+
+}
+.leftabout h1{
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 50px;
+}
+.leftabout p{
+    text-align: center;
+    margin: 0px 50px;
+    font-size: 23px;
+}
+.rightabout img{
+    border-radius: 15px;
+    height: 400px;
+    width:700px;
+    
+    
+}
+.contact{
+    /* background-color: #cc6600; */
+    height: 650px;
+    width:1500px;
+    margin: auto;
+    
+}
+.contactname{
+    text-align: center;
+    font-size: 45px;
+    color: #0066cc;
+    /* background-color: #595959; */
+}
+.contactbox{
+    height: 600px;
+    width:1300px;
+    /* background-color: yellow; */
+    margin: 100px;
+    border: 2px solid #99ccff;
+    border-radius: 15px;
+}
+.leftcontact img{
+    height: 600px;
+    border-radius: 15px;
+    float: left;
+}
+.rightcontact{
+    height: 600px;
+    width:600px;
+    /* background-color: blueviolet; */
+    margin-left: 700px;
+}
+form{
+    margin-top: 40px;
+    height: 500px;
+    width:500px;  
+    /* background-color: #595959; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px; */
+    
+}
+input{
+    margin-top: 40px;
+    height: 50px;
+    width:500px; 
+    font-size: 20px; 
+    color: #595959;
+    border: 2px solid #6699ff;
+    border-radius: 5px;
+    
+    
+}
+input:focus {
+    background-color: #cce6ff;
+  }
+
+.rightcontact button{
+    margin-top: 40px;
+    margin-left: 200px;
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #6699ff;
+    color: white;
+}
+.rightcontact button:hover{
+    border: 2px solid #6699ff ;
+    background-color: white;
+    color: #6699ff;
+    cursor: pointer;
+}
+.footer{
+    height: 80px;
+    width:100%;
+    background-color: #d9d9d9;
+    margin-bottom: 80px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: end;
+    gap:50px;
+    line-height: 80px;
+}
+.footer p{
+    font-size: 25px;
+    margin-right: 50px;
+}
+.footer b{
+    font-size: 30px;
+}
+
+/* fantasy book */
+.main{
+    background-color: #ffe6e6; 
+}
+.head{
+    /* background-color: red; */
+    height: 1800px;
+    width: 1400px;
+    margin: auto;
+}
+.head h1{ 
+    /* background-color: blueviolet; */
+    font-size: 50px;
+    text-align: center;
+    padding: 30px 0px;
+    margin-top: 50px;
+   
+    
+}
+.head2{
+    /* background-color: greenyellow; */
+    height: 300px;
+    width: 1400px;
+    margin: auto;
+    border-bottom:2px solid  gray;
+    margin-top: 20px;
+    color: #7a3d00;
+
+}
+.left{
+    /* background-color: yellow; */
+    float: left;
+    height: 300px;
+    width:300px;
+    
+}
+.left img{
+    height: 250px;
+    width:200px;
+    margin:20px 50px;
+    border-radius: 5px;
+    
+  
+}
+.right{
+    margin-left: 350px;
+    
+    /* background-color: green; */
+}
+.right h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.author{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.Rating{
+    font-size: 20px;
+}
+.Rating b{
+    font-size: 25px;
+}
+.fanbtn{
+    margin-top: 25px;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #cc6600;
+    color: white;
+}

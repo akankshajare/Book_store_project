@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Store</title>
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="logo">
+        <img src="./photo/B.png" />
+      </div>
+      <div>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="#product" id="prod">Best Seller</a></li>
+          <li><a href="#Categories" id="cat">Categories</a></li>
+          <li><a href="#aboutUs" id="abt">About Us</a></li>
+          <li><a href="#contactUs" id="cont">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="icon1">
+        <img src="./photo/instagram (1).png" />
+        <img src="./photo/facebook.png" />
+        <img src="./photo/linkedin.png" />
+        <img src="./photo/twitter.png" />
+      </div>
+    </div>
+    <div class="back">
+      <div>
+        <img src="./photo/books-1.jpg" />
+      </div>
+      <div class="back2"></div>
+      <div class="back3">
+        <h1>READ &nbsp;BOOKS</h1>
+        <p>GAIN KNOWLEDGE</p>
+      </div>
+    </div>
+    <div class="para1" id="product">
+      <div>
+        <p class="heading">BEST SELLER</p>
+      </div>
+      <div class="book">
+        <div>
+          <img src="./photo/best1.jpeg" />
+          <p class="bn">The Burning Earth</p>
+          <p class="bp">₹ 250</p>
+        </div>
+        <div>
+          <img src="./photo/best2.jpg" />
+          <p class="bn">The Wide Wide Sea</p>
+          <p class="bp">₹ 250</p>
+        </div>
+        <div>
+          <img src="./photo/best3.jpeg" />
+          <p class="bn">Martyr</p>
+          <p class="bp">₹ 250</p>
+        </div>
+        <div>
+          <img src="./photo/best4.jpeg" />
+          <p class="bn">Anna</p>
+          <p class="bp">₹ 250</p>
+        </div>
+        <div>
+          <img src="./photo/best5.jpeg" />
+          <p class="bn">The Fury</p>
+          <p class="bp">₹ 250</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="back4">
+      <img src="./photo/back8.jpg" alt="" />
+      <div class="info2">
+        <p>"Huge Collection. Attractive Discount. Special Offer"</p>
+      </div>
+    </div>
+
+    <div class="para1" id="Categories">
+      <div>
+        <p class="heading">CATEGORIES</p>
+      </div>
+      <div class="book">
+        <div>
+          <img src="./photo/fantasty1.jpg" />
+          <p class="bn1">Fantasy Books</p>
+          <button
+            class="btn"
+            type="button"
+            onclick="window.location.href='Fantasy.html';"
+          >
+            Explore
+          </button>
+        </div>
+        <div>
+          <img src="./photo/adventure.jpg" />
+          <p class="bn1">Adventure Books</p>
+          <button
+            class="btn"
+            type="button"
+            onclick="window.location.href='Adventure.html';"
+          >
+            Explore
+          </button>
+        </div>
+        <div>
+          <img src="./photo/fiction1.jpg" />
+          <p class="bn1">Fiction Books</p>
+          <button
+            class="btn"
+            type="button"
+            onclick="window.location.href='Fiction.html';"
+          >
+            Explore
+          </button>
+        </div>
+        <div>
+          <img src="./photo/literature.webp" />
+          <p class="bn1">Literature Books</p>
+          <button
+            class="btn"
+            type="button"
+            onclick="window.location.href='Literature.html';"
+          >
+            Explore
+          </button>
+        </div>
+        <div>
+          <img src="./photo/religious.webp" />
+          <p class="bn1">Religious Books</p>
+          <button
+            class="btn"
+            type="button"
+            onclick="window.location.href='Religious.html';"
+          >
+            Explore
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="about" id="aboutUs">
+      <div class="leftabout">
+        <h1>About Us</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, odit
+          alias minus enim similique error vero facere a autem magni natus
+          laboriosam modi numquam, voluptatibus rerum quam ab quia quaerat.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex laborum
+          perspiciatis temporibus animi nulla repudiandae dolor, ipsum quasi id,
+          magni est molestiae corporis nesciunt vero minus. Atque blanditiis
+          odio officia necessitatibus ex hic exercitationem doloremque ratione
+          perspiciatis, delectus non in? Recusandae eos perspiciatis.
+        </p>
+      </div>
+      <div class="rightabout">
+        <img src="./photo/back3.webp" />
+      </div>
+    </div>
+    <div class="contact" id="contactUs">
+      <div class="contactbox">
+        <div class="leftcontact">
+          <img src="./photo/contact.avif" />
+        </div>
+        <div class="rightcontact">
+          <form>
+            <h1 class="contactname">Contact Us</h1>
+            <input
+              type="text"
+              placeholder=" Full Name"
+              class="info3"
+              required
+            />
+
+            <input type="email" placeholder=" Email" required />
+
+            <input type="text" placeholder=" Contact No." required />
+
+            <input type="text" placeholder=" Message" required />
+
+            <button>Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p><b>Email:</b> bookstore@gamil.com</p>
+      <p><b>Contact No:</b> 9876543210</p>
+    </div>
+
+    <script>
+      // console.log("hello!");
+
+      //         document.addEventListener("DOMContentLoaded", function() {
+      //         document.getElementById("cont").addEventListener("click", function(e) {
+      //         e.preventDefault(); // Prevent default action of the link or button
+
+      //         // Smooth scroll to the "contactUs" section
+      //         document.documentElement.scrollTo({
+      //             top: document.getElementById("contactUs").offsetTop,
+      //             behavior: "smooth"
+      //         });
+      //     });
+      // });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll("li a[id]").forEach(function (link) {
+          link.addEventListener("click", function (e) {
+            e.preventDefault(); // Prevent default jump behavior
+
+            const targetId = this.getAttribute("href").substring(1); // Get the section ID
+            const targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+              window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: "smooth",
+              });
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
